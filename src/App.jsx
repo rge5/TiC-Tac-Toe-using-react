@@ -6,10 +6,10 @@ import Grid from './Components/Grid/Grid';
 function App() {
 
   return (
-    <>
+    <div className='container'>
       {/* <Card/> */}
       <Grid numberOfCards={9}/>
-    </>
+    </div>
   )
 }
 
